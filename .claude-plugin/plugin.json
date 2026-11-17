@@ -3,10 +3,22 @@
   "displayName": "GoKuna",
   "version": "1.0.0",
   "description": "Hire a real, ID-checked person for a physical-world photo or video task from your AI agent. You pay only for results you accept.",
-  "author": { "name": "Techguyver Labs", "url": "https://gokuna.com" },
+  "author": {
+    "name": "Techguyver Labs",
+    "url": "https://gokuna.com"
+  },
   "homepage": "https://gokuna.com/for-agents",
   "repository": "https://github.com/royherma/gokuna-plugin",
   "license": "MIT",
   "privacyPolicyUrl": "https://gokuna.com/privacy",
-  "keywords": ["gokuna", "hire a person", "real-world tasks", "photo proof", "video proof"]
+  "keywords": [
+    "gokuna",
+    "hire a person",
+    "real-world tasks",
+    "photo proof",
+    "video proof"
+  ],
+  "supportUrl": "https://gokuna.com/support",
+  "documentationUrl": "https://gokuna.com/for-agents",
+  "termsOfServiceUrl": "https://gokuna.com/terms"
 }
