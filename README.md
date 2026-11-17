@@ -50,11 +50,7 @@ Add the remote server: `https://gokuna.com/api/mcp` (streamable HTTP).
 ## Sign in
 
 - OAuth (default): the client opens a GoKuna sign-in the first time a tool is used. The server supports dynamic client registration, so no client id is needed.
-- API key: create a key at https://gokuna.com/app/profile#agents (starts with `gk_`) and send it as `Authorization: Bearer gk_...`. Example for Claude Code:
-
-```
-claude mcp add --transport http gokuna https://gokuna.com/api/mcp --header "Authorization: Bearer $GOKUNA_API_KEY"
-```
+- API key (clients without OAuth): create a key at https://gokuna.com/app/profile#agents (starts with `gk_`) and paste it into your client's header settings for this server as `Authorization: Bearer <your key>`.
 
 No key or secret is stored in this repo.
 
