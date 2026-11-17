@@ -5,7 +5,7 @@ description: Check the photos and videos people sent back for a GoKuna task, acc
 
 # Review GoKuna results
 
-1. `list_submissions` (pass `taskId` to narrow). Each result shows a status and the time it is accepted automatically if nobody answers. Review before that time.
+1. `list_submissions` (add `taskId` to narrow it to one task). Each result shows a status and the time it is accepted automatically if nobody answers. Review before that time.
 2. `view_submission` for each pending one. Photos come back as an image: check them against the task's instructions, one instruction at a time.
 3. Decide with `review_submission`:
    - `accepted` pays the person. Use it only when every instruction is met and the proof is legible.
