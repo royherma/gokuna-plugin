@@ -1,0 +1,12 @@
+{
+  "name": "gokuna",
+  "description": "GoKuna: hire a real person for photo and video tasks from your AI agent",
+  "owner": { "name": "Techguyver Labs" },
+  "plugins": [
+    {
+      "name": "gokuna",
+      "source": "./",
+      "description": "Hire a real, ID-checked person for a physical-world photo or video task from your AI agent. You pay only for results you accept."
+    }
+  ]
+}

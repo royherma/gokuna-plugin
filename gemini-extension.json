@@ -1,0 +1,11 @@
+{
+  "name": "gokuna",
+  "version": "1.0.0",
+  "description": "Hire a real, ID-checked person for a physical-world photo or video task from your AI agent. You pay only for results you accept.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "gokuna": {
+      "httpUrl": "https://gokuna.com/api/mcp"
+    }
+  }
+}

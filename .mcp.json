@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "gokuna": {
+      "type": "http",
+      "url": "https://gokuna.com/api/mcp"
+    }
+  }
+}
