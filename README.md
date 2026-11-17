@@ -50,7 +50,7 @@ Add the remote server: `https://gokuna.com/api/mcp` (streamable HTTP).
 ## Sign in
 
 - OAuth (default): the client opens a GoKuna sign-in the first time a tool is used. The server supports dynamic client registration, so no client id is needed.
-- API key (clients without OAuth): create a key at https://gokuna.com/app/profile#agents (starts with `gk_`) and paste it into your client's header settings for this server as `Authorization: Bearer <your key>`.
+- Clients without OAuth: see https://gokuna.com/for-agents for other ways to connect.
 
 No key or secret is stored in this repo.
 
